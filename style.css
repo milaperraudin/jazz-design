@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 body{
 font-family: "Roboto", sans-serif;
@@ -13,6 +12,8 @@ font-family: "Roboto", sans-serif;
 --size-xxxl: clamp(3.05rem, 9.98vi + 0.56rem, 8.54rem);
 }
 
+.xxxl { font-size: var(--size-xxxl);}
+
 body{
   font-size: var(--size-base) ;}
 
@@ -20,3 +21,8 @@ h1{ font-size: var(--size-xxl) ;}
 
 p{ letter-spacing: 0.02em;
 line-height: 1.4;}
+
+img{ max-width: 100%;}
+#affiche { 
+  height: 500px;
+}
